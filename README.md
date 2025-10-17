@@ -69,44 +69,31 @@ The **Smart Research Assistant** is a modern web application that leverages Goog
 ```mermaid
 graph TB
     subgraph Client["🌐 Client Layer"]
-        Browser["Web Browser"]
-        Mobile["Mobile Device"]
     end
     
     subgraph Frontend["💻 Frontend Layer"]
     end
     
-    subgraph Backend["⚙️ Spring Boot Backend"]
-        Controller["🎮 Controller Layer<br/>REST Endpoints"]
-        Service["⚡ Service Layer<br/>Business Logic"]
-        Repository["💾 Repository Layer<br/>Data Access"]
+    subgraph Backend["⚙️ Backend Layer"]
     end
     
     subgraph Integration["🔌 Integration Layer"]
-        SpringAI["Spring AI Framework"]
-        GeminiService["Gemini Service"]
     end
     
     subgraph External["☁️ External Services"]
-        GeminiAPI["Google Gemini API"]
-        Database["MongoDB/PostgreSQL"]
     end
-    
-    Browser --> Frontend
-    Mobile --> Frontend
-    Frontend --> Controller
-    Controller --> Service
-    Service --> GeminiService
-    Service --> Repository
-    GeminiService --> SpringAI
-    SpringAI --> GeminiAPI
-    Repository --> Database
-    
+
+    Client --> Frontend
+    Frontend --> Backend
+    Backend --> Integration
+    Integration --> External
+
     style Client fill:#e1f5ff
     style Frontend fill:#fff4e1
     style Backend fill:#e8f5e9
     style Integration fill:#f3e5f5
     style External fill:#fce4ec
+
 ```
 
 ### Component Architecture
