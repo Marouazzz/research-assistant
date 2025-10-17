@@ -74,9 +74,6 @@ graph TB
     end
     
     subgraph Frontend["💻 Frontend Layer"]
-        HTML["HTML5<br/>Structure"]
-        CSS["CSS3<br/>Styling"]
-        JS["JavaScript<br/>Logic"]
     end
     
     subgraph Backend["⚙️ Spring Boot Backend"]
