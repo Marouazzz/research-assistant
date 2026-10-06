@@ -4,11 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Spring AI](https://img.shields.io/badge/Spring%20AI-Latest-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini%20API-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-3.8+-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 
-**AI-powered research management system built with Spring Boot, Spring AI, and Google Gemini API**
+**AI-powered research management system built with Spring Boot and Google Gemini API**
 
 
 </div>
